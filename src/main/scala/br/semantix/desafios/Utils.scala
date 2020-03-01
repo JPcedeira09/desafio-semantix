@@ -39,8 +39,8 @@ class Utils extends Serializable {
       .map(linha => formatRow(linha))
 
     val df = ss.createDataFrame(rdd, StructType(fields))
-    df.printSchema()
-    df.show(2)
+//    df.printSchema()
+//    df.show(2)
     df
   }
 

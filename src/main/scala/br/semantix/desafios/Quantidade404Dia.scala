@@ -2,6 +2,7 @@ package br.semantix.desafios
 
 class Quantidade404Dia {
 
+  //  4. Quantidade de erros 404 por dia.
   def getErrosDia(): Unit = {
     val utils = new Utils()
     val logs = utils.getLogs("erros por dia")
