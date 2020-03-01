@@ -24,7 +24,7 @@ class Utils extends Serializable {
 
     val fields = List(
       StructField("Host", StringType, nullable = false),
-      StructField("Timestamp", StringType, nullable = false),
+      StructField("data_timestamp", StringType, nullable = false),
         StructField("Requisicao", StringType, nullable = false),
         StructField("Codigo", StringType, nullable = false),
         StructField("Bytes", StringType, nullable = false)
